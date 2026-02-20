@@ -755,7 +755,7 @@
 
 @media (max-width: 450px) {
     .first-screen {
-        background-image: url('../img/main-bg-425.png');
+        background-image: url('../img/main-bg-425.webp');
         background-position: 50%;
         min-height: 50vh;    
     }
@@ -867,5 +867,6 @@
     }
 
 } */
+
 
 
