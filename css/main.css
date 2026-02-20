@@ -428,7 +428,7 @@ section + section {
     text-align: center;
 }
 
-.banner-top {
+.banner_top {
     grid-column: 1;
     justify-self: start;
 }
