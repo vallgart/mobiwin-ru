@@ -303,7 +303,7 @@
     }
 
     .first-screen {
-        background-image: url('/img/main-bg-768.webp');
+        background-image: url('../img/main-bg-768.webp');
         background-position: 50%;
         min-height: 50vh;    
     }
@@ -755,7 +755,7 @@
 
 @media (max-width: 450px) {
     .first-screen {
-        background-image: url('/img/main-bg-425.webp');
+        background-image: url('../img/main-bg-425.webp');
         background-position: 50%;
         min-height: 50vh;    
     }
@@ -787,7 +787,7 @@
 
 @media (max-width: 375px) {
     .first-screen {
-        background-image: url('/img/main-bg-375.webp');
+        background-image: url('../img/main-bg-375.webp');
         background-position: 50%;
         min-height: 50vh;    
     }
@@ -811,7 +811,7 @@
 
 @media (max-width: 320px) {
     .first-screen {
-        background-image: url('/img/main-bg-320.webp');
+        background-image: url('../img/main-bg-320.webp');
         background-position: 50%;
         min-height: 100vh;    
     }
