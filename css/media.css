@@ -426,7 +426,7 @@
     }
 
     section + section {
-        margin-top: 55px;
+        margin-top: 80px;
     }
 
     section {
@@ -584,7 +584,7 @@
     }
 
     .prizes-cards__item img {
-        height: 120px;
+        height: 100px;
         width: auto;
     }
 
@@ -748,7 +748,7 @@
     }
 
     .call-to-us-item {
-        text-align: center;
+        text-align: center  ;
     }
 
     .copyright,
