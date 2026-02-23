@@ -474,13 +474,13 @@
 
     .first-screen p {
         max-width: 280px;
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
     .first-screen p span {
         font-size: inherit;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .hero-content {
@@ -633,16 +633,17 @@
     }
 
     .winners-row {
-        gap: 50px;
+        gap: 70px;
     }
 
     .winners-col {
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 70px;
     }
 
     .winner-person {
-        width: 55px;
+        width: auto;
+        height: 80px;
     }
 
     .winner-item {
@@ -651,7 +652,7 @@
 
     .winner-item h3 {
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     .winner-item p {
@@ -746,6 +747,10 @@
         flex-shrink: 0;
     }
 
+    .call-to-us-item {
+        text-align: center;
+    }
+
     .copyright,
     .copyright span {
         text-align: center;
@@ -813,7 +818,7 @@
     .first-screen {
         background-image: url('../img/main-bg-320.webp');
         background-position: 50%;
-        min-height: 100vh;    
+        min-height: 50vh;    
     }
 
     .first-screen h1 {
@@ -839,34 +844,3 @@
     width: 100%;
 }
 }
-/* @media (max-width: 320px) {
-    .container {
-        padding: 0 20px;
-    }
-
-    .first-screen h1 {
-        font-size: 20px;
-        max-width: 200px;
-    }
-
-    .first-screen p {
-        max-width: 275px;
-    }
-
-    p {
-        font-size: 16px !important;
-    }
-
-    .hero-content {
-        margin-top: 350px;
-    }
-
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-} */
-
-
-
