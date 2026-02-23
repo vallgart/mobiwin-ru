@@ -187,7 +187,9 @@ section + section {
     padding: 20px 32px;
 }
 
-.btn-action:hover, .btn-more:hover {
+.btn-action:hover,
+.btn-more:hover,
+.participation-more:hover {
     transform: scale(0.9);
 }
 
@@ -301,6 +303,7 @@ section + section {
     font-weight: 700;
     margin-top: 75px;
     text-align: center;
+    transition: 0.3s ease;
 }
 
 .prizes {
@@ -772,3 +775,4 @@ footer {
 .popup-close:hover {
     transform: scale(0.9);
 }
+
