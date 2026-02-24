@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/locked.css">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon"> 
 </head>
 <body>
@@ -89,6 +90,7 @@
             </div>  
         </section>
 
+    <section id="lockedContent" class="locked-content">
         <section class="participation" id="participation">
             <div class="container">
                 <h2>Как участвовать:</h2>
@@ -147,8 +149,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <section class="faq" id="faq">
             <div class="container">
@@ -287,8 +287,6 @@
             </div>
         </section>
 
-
-
         <section class="banner" id="banner">
             <div class="container">
                 <div class="banner-row">
@@ -325,7 +323,7 @@
                 </div>
             </div>
         </section>
-
+    </section>    
 
 
         <footer class="contacts" id="contacts">
@@ -690,10 +688,42 @@
 
 
     </main>
+
+<div class="launch-overlay" id="launchOverlay">
+
+    <div class="launch-timer">
+        <h1 class="launch-title">До запуска акции осталось</h1>
+
+        <div class="timer-box">
+            <div class="time-item">
+                <span id="days">00</span>
+                <small>дней</small>
+            </div>
+            <div class="time-item">
+                <span id="hours">00</span>
+                <small>часов</small>
+            </div>
+            <div class="time-item">
+                <span id="minutes">00</span>
+                <small>минут</small>
+            </div>
+            <div class="time-item">
+                <span id="seconds">00</span>
+                <small>секунд</small>
+            </div>
+        </div>
+
+        <p class="launch-footer">
+            Скоро!<br>MobiWin 2.0
+        </p>
+    </div>
+
+</div>
+
 </body>
 
 <script src="./js/script.js"></script>
-<script src="./js/snow.js"></script>
+<script src="./js/locked.js"></script>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <!-- Иконка стрелки подробнее -->
