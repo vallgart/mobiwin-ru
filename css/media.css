@@ -757,6 +757,11 @@
         text-align: center;
         font-size: 14px;
     }
+
+    .popup-close {
+        padding: 12px 40px;
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 450px) {
