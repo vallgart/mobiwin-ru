@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        document.documentElement.classList.add("preload-lock");
+    </script>
     <title>Mobiwin 2.0</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/locked.css">
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon"> 
 </head>
 <body>
     <main>
         <section class="first-screen">
             <header class="header">
                 <div class="header-row">
-                    <div class="logo"><a href="https://vallgart.github.io/mobiwin-ru/"><img src="./img/icons/mobiuz-logo.svg" alt="Логотип Mobiuz"></a></div>
+                    <div class="logo"><a href="#!"><img src="./img/icons/mobiuz-logo.svg" alt="Логотип Mobiuz"></a></div>
                         <nav class="nav-desktop">
                             <ul>
                                 <li><a href="#participation">Условия</a></li>
@@ -28,7 +31,7 @@
                         </nav>
                         <div class="toggles_row">
                             <div class="toggle">
-                                <a href="https://vallgart.github.io/mobiwin-uz/">UZ</a>
+                                <a href="">UZ</a>
                             </div>
                             <button class="toggle-mobile">
                                 <svg class="icon" aria-hidden="true" width="40" height="40"><use href="#icon-burger" /></svg>
@@ -45,10 +48,6 @@
                                     <li><a href="#contacts">Контакты</a></li>
                                 </ul>
                             </nav>
-                            
-                            <!-- <a href="#participation" class="btn-action-menu rules-open">
-                                    Участвовать
-                            </a> -->
 
                             <div class="social-media">
                                 <a target="_blank" href="https://www.instagram.com/mobiuz.uzbekistan?igsh=MTBkenFlZGgyMjFjNA==">
@@ -806,6 +805,5 @@
         </svg>
     </symbol>
 </svg>
-
 
 </html>
